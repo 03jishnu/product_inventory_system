@@ -48,10 +48,11 @@ This is a backend API to manage products, variants, and stock levels. It uses **
     python manage.py migrate
     ```
     
-6. For admin login use
+6. **For admin login creation**:
    python manage.py createsuperuser
 
-  $ python manage.py createsuperuser
+ 
+7. **Enter the details**:
 Username : admin
 Email address: admin@example.com
 Password: ********
@@ -61,15 +62,15 @@ Superuser created successfully.
 
 
 
-7. **Run the Server**:
+8. **Run the Server**:
     Now you can start the Django development server:
     ```bash
     python manage.py runserver
 
 
 
-8.for Frontend react
-   npm start 
+8. **Frontend react running server**:
+    npm start 
 
 9 enter user name and password to login   
 
