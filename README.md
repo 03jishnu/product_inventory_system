@@ -49,10 +49,12 @@ This is a backend API to manage products, variants, and stock levels. It uses **
     ```
     
 6. **For admin login creation**:
+   ```bash
    python manage.py createsuperuser
 
  
-7. **Enter the details**:
+8. **Enter the details**:
+ ```bash
 Username : admin
 Email address: admin@example.com
 Password: ********
@@ -61,10 +63,9 @@ Superuser created successfully.
 
 
 
-
-8. **Run the Server**:
+10. **Run the Server**:
     Now you can start the Django development server:
-    ```bash
+
     python manage.py runserver
 
 
