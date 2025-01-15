@@ -1,0 +1,67 @@
+.create-product-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.create-product-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-product-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-product-container label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.create-product-container input[type="text"],
+.create-product-container input[type="number"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-product-container button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-product-container button:hover {
+  background-color: #0056b3;
+}
+
+.variant-section, .option-section, .subvariant-section {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.option-item, .subvariant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.option-item p, .subvariant-item p {
+  margin: 0;
+  flex: 1;
+}
